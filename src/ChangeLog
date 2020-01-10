@@ -1,0 +1,10 @@
+0.10.0 --------------------------------------------------2007-08-18
+Initial release based on aspell-hy 0.10.0-0 package.
+
+0.10.1 --------------------------------------------------2007-08-19
+Added simple installation script.
+Synchronized affix data file with aspell-hy.
+
+0.20.0 --------------------------------------------------2010-05-05
+Brand new word list and affix data file based on work from
+Arak-29 Charitable Foundation. 
