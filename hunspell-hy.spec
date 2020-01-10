@@ -1,7 +1,7 @@
 Name: hunspell-hy
 Summary: Armenian hunspell dictionaries
 Version: 0.20.0
-Release: 5%{?dist}
+Release: 6%{?dist}
 Source: http://downloads.sourceforge.net/armspell/myspell-hy-%{version}.tar.gz
 Group: Applications/Text
 URL: http://sourceforge.net/projects/armspell
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20.0-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20.0-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
